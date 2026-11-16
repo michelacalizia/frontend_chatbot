@@ -1,0 +1,15 @@
+# Ambiente virtuale
+.venv/
+
+# Database vettoriale locale
+chroma_db/
+
+# File temporanei di Python
+__pycache__/
+*.pyc
+
+# Impostazioni locali e segreti
+.env
+
+# Editor
+.vscode/

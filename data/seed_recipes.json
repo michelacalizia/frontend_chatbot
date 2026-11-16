@@ -1,0 +1,283 @@
+[
+  {
+    "id": "r001",
+    "title": "Pasta e ceci al rosmarino",
+    "prep_time_min": 35,
+    "season_months": [10, 11, 12, 1, 2, 3],
+    "diet_tags": ["vegetariano", "vegano"],
+    "calories_per_portion": 480,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Pasta mista", "quantity": 160, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Ceci cotti", "quantity": 240, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Rosmarino", "quantity": 5, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Aglio", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Passata di pomodoro", "quantity": 100, "unit": "ml", "category": "Dispensa", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 20, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Soffriggi aglio e rosmarino nell'olio, aggiungi passata e ceci, copri con acqua e cuoci la pasta direttamente nella zuppa fino a cottura."
+  },
+  {
+    "id": "r002",
+    "title": "Orata al forno con patate e pomodorini",
+    "prep_time_min": 45,
+    "season_months": [4, 5, 6, 7, 8, 9, 10],
+    "diet_tags": ["pesce", "senza glutine"],
+    "calories_per_portion": 520,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Orata", "quantity": 400, "unit": "g", "category": "Pescheria", "is_perishable": true},
+      {"name": "Patate", "quantity": 300, "unit": "g", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Pomodorini", "quantity": 150, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olive nere", "quantity": 40, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Prezzemolo", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olio extravergine d'oliva", "quantity": 20, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Disponi patate a fette sottili in teglia, adagia l'orata con pomodorini e olive, condisci con olio e prezzemolo e inforna a 200 gradi per 30 minuti."
+  },
+  {
+    "id": "r003",
+    "title": "Insalata di pomodori, cetrioli e ricotta",
+    "prep_time_min": 10,
+    "season_months": [5, 6, 7, 8, 9],
+    "diet_tags": ["vegetariano", "senza glutine"],
+    "calories_per_portion": 320,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Pomodorini", "quantity": 200, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Cetrioli", "quantity": 200, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Ricotta", "quantity": 150, "unit": "g", "category": "Latticini", "is_perishable": true},
+      {"name": "Basilico", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olio extravergine d'oliva", "quantity": 15, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Taglia pomodorini e cetrioli, aggiungi la ricotta a pezzi, il basilico spezzettato e condisci con olio, sale e pepe."
+  },
+  {
+    "id": "r004",
+    "title": "Orecchiette alle cime di rapa",
+    "prep_time_min": 30,
+    "season_months": [10, 11, 12, 1, 2, 3, 4],
+    "diet_tags": ["vegetariano", "vegano"],
+    "calories_per_portion": 510,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Orecchiette", "quantity": 180, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Cime di rapa", "quantity": 400, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Aglio", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Pangrattato", "quantity": 20, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 25, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Cuoci le cime di rapa e le orecchiette nella stessa acqua, scola e salta in padella con aglio e olio; completa con pangrattato tostato."
+  },
+  {
+    "id": "r005",
+    "title": "Frittata di zucchine e ricotta",
+    "prep_time_min": 25,
+    "season_months": [5, 6, 7, 8, 9, 10],
+    "diet_tags": ["vegetariano", "senza glutine"],
+    "calories_per_portion": 380,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Uova", "quantity": 4, "unit": "pz", "category": "Latticini", "is_perishable": true},
+      {"name": "Zucchine", "quantity": 300, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Ricotta", "quantity": 100, "unit": "g", "category": "Latticini", "is_perishable": true},
+      {"name": "Parmigiano reggiano", "quantity": 30, "unit": "g", "category": "Latticini", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 10, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Rosola le zucchine a rondelle, sbatti le uova con ricotta e parmigiano, versa sulle zucchine e cuoci a fuoco dolce da entrambi i lati."
+  },
+  {
+    "id": "r006",
+    "title": "Zuppa di lenticchie e verdure",
+    "prep_time_min": 40,
+    "season_months": [10, 11, 12, 1, 2, 3],
+    "diet_tags": ["vegetariano", "vegano", "senza glutine"],
+    "calories_per_portion": 390,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Lenticchie cotte", "quantity": 300, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Carote", "quantity": 150, "unit": "g", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Sedano", "quantity": 80, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Cipolla", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Passata di pomodoro", "quantity": 100, "unit": "ml", "category": "Dispensa", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 15, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Fai un soffritto di cipolla, carote e sedano, aggiungi la passata e le lenticchie, copri con acqua e cuoci per 25 minuti."
+  },
+  {
+    "id": "r007",
+    "title": "Minestrone di stagione con fagioli",
+    "prep_time_min": 45,
+    "season_months": [10, 11, 12, 1, 2, 3, 4],
+    "diet_tags": ["vegetariano", "vegano", "senza glutine"],
+    "calories_per_portion": 350,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Fagioli cannellini cotti", "quantity": 200, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Verza", "quantity": 200, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Patate", "quantity": 200, "unit": "g", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Carote", "quantity": 150, "unit": "g", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Zucchine", "quantity": 150, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olio extravergine d'oliva", "quantity": 15, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Taglia le verdure a cubetti, falle insaporire nell'olio, copri con acqua, cuoci 30 minuti e aggiungi i fagioli negli ultimi 10."
+  },
+  {
+    "id": "r008",
+    "title": "Pasta alla norma",
+    "prep_time_min": 35,
+    "season_months": [6, 7, 8, 9],
+    "diet_tags": ["vegetariano"],
+    "calories_per_portion": 540,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Rigatoni", "quantity": 180, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Melanzane", "quantity": 300, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Pomodorini", "quantity": 200, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Ricotta salata", "quantity": 40, "unit": "g", "category": "Latticini", "is_perishable": false},
+      {"name": "Basilico", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olio extravergine d'oliva", "quantity": 25, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Cuoci le melanzane a cubetti al forno o in padella, prepara un sugo veloce di pomodorini, condisci i rigatoni e completa con ricotta salata e basilico."
+  },
+  {
+    "id": "r009",
+    "title": "Spaghetti alle vongole",
+    "prep_time_min": 30,
+    "season_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "diet_tags": ["pesce"],
+    "calories_per_portion": 480,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Spaghetti", "quantity": 180, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Vongole", "quantity": 600, "unit": "g", "category": "Pescheria", "is_perishable": true},
+      {"name": "Aglio", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Prezzemolo", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Vino bianco", "quantity": 50, "unit": "ml", "category": "Dispensa", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 20, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Apri le vongole in padella coperta con aglio, olio e vino bianco, cuoci gli spaghetti al dente e saltali nel fondo di cottura con il prezzemolo."
+  },
+  {
+    "id": "r010",
+    "title": "Insalata di farro con verdure estive",
+    "prep_time_min": 25,
+    "season_months": [5, 6, 7, 8, 9],
+    "diet_tags": ["vegetariano", "vegano"],
+    "calories_per_portion": 410,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Farro", "quantity": 160, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Pomodorini", "quantity": 150, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Cetrioli", "quantity": 150, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olive nere", "quantity": 30, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Basilico", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olio extravergine d'oliva", "quantity": 20, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Lessa il farro, lascialo raffreddare e condiscilo con pomodorini, cetrioli a dadini, olive, basilico e olio."
+  },
+  {
+    "id": "r011",
+    "title": "Purè di fave e cicoria",
+    "prep_time_min": 50,
+    "season_months": [10, 11, 12, 1, 2, 3, 4],
+    "diet_tags": ["vegetariano", "vegano", "senza glutine"],
+    "calories_per_portion": 430,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Fave secche", "quantity": 160, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Cicoria", "quantity": 400, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Cipolla", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 25, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Cuoci le fave con la cipolla fino a ridurle in purè, lessa la cicoria, saltala in padella con un filo d'olio e servi insieme."
+  },
+  {
+    "id": "r012",
+    "title": "Branzino al cartoccio con verdure",
+    "prep_time_min": 35,
+    "season_months": [4, 5, 6, 7, 8, 9, 10],
+    "diet_tags": ["pesce", "senza glutine"],
+    "calories_per_portion": 450,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Branzino", "quantity": 400, "unit": "g", "category": "Pescheria", "is_perishable": true},
+      {"name": "Zucchine", "quantity": 200, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Pomodorini", "quantity": 150, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Limone", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Prezzemolo", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olio extravergine d'oliva", "quantity": 15, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Chiudi il branzino in carta forno con zucchine a rondelle, pomodorini, limone e prezzemolo, condisci con olio e cuoci a 190 gradi per 25 minuti."
+  },
+  {
+    "id": "r013",
+    "title": "Parmigiana di melanzane al forno",
+    "prep_time_min": 60,
+    "season_months": [6, 7, 8, 9],
+    "diet_tags": ["vegetariano", "senza glutine"],
+    "calories_per_portion": 420,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Melanzane", "quantity": 500, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Passata di pomodoro", "quantity": 200, "unit": "ml", "category": "Dispensa", "is_perishable": false},
+      {"name": "Mozzarella", "quantity": 125, "unit": "g", "category": "Latticini", "is_perishable": true},
+      {"name": "Parmigiano reggiano", "quantity": 30, "unit": "g", "category": "Latticini", "is_perishable": false},
+      {"name": "Basilico", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Olio extravergine d'oliva", "quantity": 15, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Griglia le melanzane a fette, alterna strati di melanzane, passata, mozzarella, basilico e parmigiano e inforna a 190 gradi per 30 minuti."
+  },
+  {
+    "id": "r014",
+    "title": "Riso integrale con carciofi e limone",
+    "prep_time_min": 40,
+    "season_months": [2, 3, 4, 5],
+    "diet_tags": ["vegetariano", "vegano", "senza glutine"],
+    "calories_per_portion": 440,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Riso integrale", "quantity": 160, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Carciofi", "quantity": 4, "unit": "pz", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Limone", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Prezzemolo", "quantity": 10, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Aglio", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 20, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Pulisci i carciofi e cuocili a spicchi in padella con aglio e olio, lessa il riso, uniscilo ai carciofi e completa con succo di limone e prezzemolo."
+  },
+  {
+    "id": "r015",
+    "title": "Merluzzo con ceci e spinaci",
+    "prep_time_min": 30,
+    "season_months": [10, 11, 12, 1, 2, 3, 4],
+    "diet_tags": ["pesce", "senza glutine"],
+    "calories_per_portion": 400,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Filetto di merluzzo", "quantity": 400, "unit": "g", "category": "Pescheria", "is_perishable": true},
+      {"name": "Spinaci", "quantity": 300, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Ceci cotti", "quantity": 200, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Aglio", "quantity": 1, "unit": "pz", "category": "Ortofrutta", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 15, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Salta gli spinaci con aglio e olio, aggiungi i ceci, adagia i filetti di merluzzo sopra e cuoci coperto per 10 minuti."
+  },
+  {
+    "id": "r016",
+    "title": "Pasta con zucca e rosmarino",
+    "prep_time_min": 30,
+    "season_months": [10, 11, 12, 1],
+    "diet_tags": ["vegetariano"],
+    "calories_per_portion": 470,
+    "base_portions": 2,
+    "ingredients": [
+      {"name": "Pasta mista", "quantity": 160, "unit": "g", "category": "Dispensa", "is_perishable": false},
+      {"name": "Zucca", "quantity": 400, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Rosmarino", "quantity": 5, "unit": "g", "category": "Ortofrutta", "is_perishable": true},
+      {"name": "Parmigiano reggiano", "quantity": 30, "unit": "g", "category": "Latticini", "is_perishable": false},
+      {"name": "Olio extravergine d'oliva", "quantity": 15, "unit": "ml", "category": "Dispensa", "is_perishable": false}
+    ],
+    "instructions": "Cuoci la zucca a cubetti in padella con rosmarino e un mestolo d'acqua fino a ridurla a crema, unisci la pasta e il parmigiano."
+  }
+]

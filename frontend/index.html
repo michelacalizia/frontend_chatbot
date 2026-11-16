@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dieta Mediterranea Anti-Spreco</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫒</text></svg>">
+</head>
+<body>
+  <header>
+    <h1>🫒 Dieta Mediterranea Anti-Spreco</h1>
+    <p>Menu di stagione e lista della spesa, senza sprechi.</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-target="tab-menu">Menu settimanale</button>
+    <button class="tab" data-target="tab-rescue">Salva-frigo</button>
+  </nav>
+
+  <main>
+    <!-- SCHEDA MENU -->
+    <section id="tab-menu" class="panel active">
+      <form id="menu-form" class="card">
+        <div class="row">
+          <label>Giorni
+            <input type="number" id="days" min="1" max="14" value="7">
+          </label>
+          <label>Porzioni
+            <input type="number" id="portions" min="1" max="12" value="2">
+          </label>
+          <label>Mese
+            <select id="month"></select>
+          </label>
+        </div>
+
+        <label>Ingredienti in frigo (separati da virgola)
+          <input type="text" id="fridge" placeholder="es. ricotta, cime di rapa">
+        </label>
+
+        <fieldset>
+          <legend>Restrizioni alimentari</legend>
+          <label class="check"><input type="checkbox" name="restriction" value="vegetariano"> Vegetariano</label>
+          <label class="check"><input type="checkbox" name="restriction" value="vegano"> Vegano</label>
+          <label class="check"><input type="checkbox" name="restriction" value="pescetariano"> Pesce</label>
+          <label class="check"><input type="checkbox" name="restriction" value="senza glutine"> Senza glutine</label>
+        </fieldset>
+
+        <button type="submit" id="menu-btn">Genera il menu</button>
+        <p id="menu-status" class="status"></p>
+      </form>
+
+      <div id="menu-result"></div>
+    </section>
+
+    <!-- SCHEDA SALVA-FRIGO -->
+    <section id="tab-rescue" class="panel">
+      <form id="rescue-form" class="card">
+        <label>Ingredienti in scadenza (da 2 a 4, separati da virgola)
+          <input type="text" id="rescue-input" placeholder="es. ricotta, zucchine, uova">
+        </label>
+        <button type="submit" id="rescue-btn">Trova ricette</button>
+        <p id="rescue-status" class="status"></p>
+      </form>
+
+      <div id="rescue-result"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
